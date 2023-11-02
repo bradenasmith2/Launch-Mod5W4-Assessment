@@ -22,8 +22,11 @@ When finished, create a PR and include your answers to the reflection questions 
 
 ## Reflection Questions (6 points)
 * What about this challenge was most difficult for you?
+   * By far the most challenging piece of this assessment was correctly converting the data from the API into my FarFarAwayPlanet object. At first, I was using the 'Planet' class to structure the incoming data, but then opted for creating a new class with what I belieced to be all incoming properties, however this still wasn't working for me.
 * Highlight one peice of code that you wrote that you are especially proud of.
+   * Since a vast majority of the code is near identical to other API implementations I have done, there is no specific code that I'm super proud of. However, one thing I would like to highlight instead is my organization of the files / chunks of code. In the [FarFarAwayGalaxy Service]() I've structured the blocks of code into the 'steps' of calling an API - this helps me and those who use this code after me decipher what is happening at a glance. Additionally, my folder structure is implemented in a way that could be easily expandable if I were to introduce more APIs, or even just interfaces.
 * What would you do next, if we gave you another hour?
+   * If I had another hour, I would definitely try to figure out why my JSON data won't convert. Specifically, I would introduce Serilog to the project so that I can get informative logs that would help me identify the area of concern. Also, I would do limited research to further determine if I need ALL properties from the JSON object - or just those I care about. Time permitting, I would also implement more sustainable error handling with Serilog to ensure that if my API call isn't successful, I know why, and my user will be alerted without the program crashing.
 
 ## Rubric
 
