@@ -1,6 +1,6 @@
 ﻿namespace GalaxyQuest.Models
 {
-    public class Planet
+    public class MilkyWayPlanet
     {
         public string Name { get; set; }
         public long Population { get; set; }
